@@ -47,7 +47,7 @@ async function run() {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
 
-  await page.goto("https://www.reddit.com/user/TastyPocket_GF/submitted/", {
+  await page.goto("https://www.redgifs.com/", {
     waitUntil: "networkidle2",
   });
 
